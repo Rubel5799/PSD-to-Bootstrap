@@ -1,0 +1,223 @@
+/*************************
+ Font link - google fonts
+ *************************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/**************************
+ Global CSS start from hear
+***************************/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+
+
+/*****************
+ navbar css start
+******************/
+.navbar{
+  background: black;
+}
+
+.nav-link{
+  color: white;
+  text-transform: capitalize;
+  margin-left: 30px;
+}
+.nav-link:hover{
+  color: #ff8b38;
+}
+/***************
+ navbar css end
+****************/
+
+
+
+/****************************
+ banner section css start
+ ****************************/
+.banner-section{
+  width: 100%;
+  background: url(../img/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92.8vh;
+}
+
+.banner-section .content{
+  height: 85vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner-section .content h1{
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.banner-section .content h1 span{
+  color: #ff8b38;
+  font-weight: 300;
+}
+
+.banner-section .content h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-right: 188px;
+}
+
+.banner-section .content .line{
+    width: 75px;
+    height: 3px;
+    background: white;
+    margin: 35px 0px;
+}
+
+.banner-section .content p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-right: 214px;
+}
+
+.btn-primary{
+  background: transparent;
+  border-radius: 0;
+  border: 2px solid white;
+  text-transform: capitalize;
+  padding: 8px 30px;
+  margin-top: 25px;
+}
+
+.btn-primary:hover{
+  background-color: #ff8b38;
+  border-color: #ff8b38;
+}
+
+
+/****************************
+      form css start
+****************************/
+.main-form .card-header{
+  background: #f1f1f1;
+}
+
+.main-form .card-header h3{
+  font-size: 20px;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 700;
+}
+
+.main-form .card-header h3 span{
+  color: #ff8b38;
+  text-transform: uppercase;
+}
+
+.main-form{
+  height: 85vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+.card-body{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.main-form .card{
+
+}
+.main-form .form-group{
+  margin-bottom: 35px !important;
+  margin-top: 35px !important;
+  padding: 0px 20px;
+}
+
+.main-form .form-group .form-control{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #bdbdbd;
+  border-radius: 0px;
+  text-transform: capitalize;
+}
+
+.main-form .card-footer{
+  background: #ff9b51;
+}
+
+.main-form .card-footer .get-btn{
+  border: none;
+  background: transparent;
+  text-transform: capitalize;
+  color: white;
+}
+/****************************
+ banner section css end
+****************************/
+
+
+/***********************************
+ social media section css code start
+************************************/
+.social-media{
+  width: 100%;
+  padding: 5px 0px 0px 0px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.social-media .content{
+  text-transform: capitalize;
+}
+
+.social-media .content h2{
+ font-weight: 700;
+}
+.social-media .social-icon{
+  width: 100%;
+}
+
+.social-media .social-icon ul{
+  margin: 0;
+  padding: 20px 0;
+}
+
+.social-media .social-icon ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 58px;
+}
+
+.social-media .social-icon ul li a{
+  text-decoration: none;
+}
+
+.social-media .social-icon ul li a i{
+  font-size: 50px;
+  color: #ccc;
+
+}
+.social-media .social-icon ul li a i:hover{
+  color: #ff8b38;
+}
+
+/***********************************
+ social media section css code end
+************************************/

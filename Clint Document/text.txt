@@ -1,0 +1,15 @@
+
+AXIT color ----- #ff8b38
+
+form header color ---- #f5f5f5
+
+section color -----  #f5f5f5
+
+form footer color ----- #ff9b51
+
+icon color ---- #cccccc
+
+font style ---- 
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
